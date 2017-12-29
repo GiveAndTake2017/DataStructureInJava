@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 test merge master
+=======
+test merge test
+>>>>>>> refs/heads/testBranch
