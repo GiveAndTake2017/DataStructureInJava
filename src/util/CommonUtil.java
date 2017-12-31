@@ -19,10 +19,10 @@ public class CommonUtil {
 	 * 
 	 * @author Wu, Jiazhuo
 	 * @param character
-	 *            需要转换的字符串
+	 *            需要转换的 Character 数组
 	 * 
 	 */
-	public String convertCharToString(Character[] character) {
+	public String convertCharacterToString(Character[] character) {
 		char[] tempArray = new char[character.length];
 		for (int i = 0; i < character.length; i++) {
 			tempArray[i] = character[i];
@@ -52,7 +52,7 @@ public class CommonUtil {
 	public static void main(String[] args) {
 		Character[] testArray = { 'a', 'b', 'c' };
 		CommonUtil common = new CommonUtil();
-		String result = common.convertCharToString(testArray);
+		String result = common.convertCharacterToString(testArray);
 		System.out.println(result);
 	}
 
