@@ -50,10 +50,7 @@ public class CommonUtil {
 	}
 
 	public static void main(String[] args) {
-		Character[] testArray = { 'a', 'b', 'c' };
-		CommonUtil common = new CommonUtil();
-		String result = common.convertCharacterToString(testArray);
-		System.out.println(result);
+		
 	}
 
 }
